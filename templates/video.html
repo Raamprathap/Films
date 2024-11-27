@@ -893,7 +893,7 @@ nav{
     </div>
     
     <script>
-        fetch('https://sample-5fl6.onrender.com/get-images')
+        fetch('https://films-edh9.onrender.com/get-images')
         .then(response => {
             if (!response.ok) {
                 throw new Error('Network response was not ok');
@@ -906,7 +906,7 @@ nav{
             // Dynamically create and append img elements to the gallery
             imageFilenames.forEach(filename => {
                 const img = document.createElement('video');
-                img.src = `https://sample-5fl6.onrender.com/images/${filename.id}`; // Corrected path
+                img.src = `https://films-edh9.onrender.com/images/${filename.id}`; // Corrected path
                 img.controls=true;
                 gallery.appendChild(img); // Append the img element to the gallery
             });
