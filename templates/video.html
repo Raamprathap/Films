@@ -908,6 +908,7 @@ nav{
                 const img = document.createElement('video');
                 img.src = `https://films-edh9.onrender.com/images/${filename.id}`; // Corrected path
                 img.controls=true;
+                img.classList.add('vid');
                 gallery.appendChild(img); // Append the img element to the gallery
             });
         
